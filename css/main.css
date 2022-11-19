@@ -1,0 +1,191 @@
+
+
+@font-face {
+  font-family: 'ArialNarrow';
+  src:url('../fonts/ArialNarrow.eot?-kwf309');
+  src:url('../fonts/ArialNarrow.eot?#iefix-kwf309') format('embedded-opentype'),
+    url('../fonts/ArialNarrow.woff?-kwf309') format('woff'),
+    url('../fonts/ArialNarrow.ttf?-kwf309') format('truetype'),
+    url('../fonts/ArialNarrow.svg?-kwf309#AA-Arial') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}  
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+*::before,
+*::after {
+  box-sizing: border-box;
+
+}
+
+body {
+  color: #1d1d1d;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  background: #fff;
+  margin: 0;
+}
+
+a {color: #fff;}
+a:hover {color: #fff;}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+.sa {
+  text-align: center;
+}
+
+img {
+  width: 100%;
+}
+
+.clear {clear:both;}
+
+
+button {
+  border:none;
+  background: none;
+  box-shadow: unset;
+  
+}
+
+button:focus {
+  outline: none;
+  box-shadow: unset;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+header {
+  padding: 0;
+  background: #;
+}
+
+
+
+.call {
+
+}
+
+.container {
+  padding: 0 52px 0 52px;
+  max-width:1440px;
+  margin: 0 auto;
+}
+
+.call .container {
+  padding: 0 52px 0 52px;
+  max-width:1440px;
+  margin: 0 auto;
+}
+
+.call__wrap {
+  display: flex;
+  height: 100%;
+  padding: 30px 0 0 0;
+}
+
+.call__block {
+  width: 13%;
+  padding: 0 29px 0 0;
+  border-right:2px solid #D9D9D9;
+}
+
+.call__block2 {
+  width: 87%;
+  padding: 0 0 0 47px;
+}
+
+.menu li {
+  margin: 0 0 28px 0;
+}
+
+.menu li a {
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #838382;
+  text-decoration: none;
+  opacity: 0.9;
+}
+
+.menu li a span {
+  display: block;
+}
+
+.call__title {
+  font-size: 20px;
+  line-height: 24px;
+  text-align: right;
+  color: #838382;
+  padding: 55px 0 0 0;
+  margin: 0 0 73px 0;
+}
+
+.call__about_wrap {
+  display: flex;
+}
+
+.call_about_block {
+  width: 16.66666666666667%;
+  display: flex;
+  align-items: center;
+}
+
+.call__about_title {
+  color: #4ABCC1;
+  opacity: 0.9;
+  margin: 0 0 6px 0;
+}
+
+.call__line {
+  height: 3px;
+  background: #D9D9D9;
+  width: 100%;
+  margin: 0 0 37px 0;
+}
+
+.copyright {
+  font-size: 20px;
+  line-height: 24px;
+  color: #838382;
+  text-align: right;
+  margin: 40px 0 40px 0;
+}
+
+footer {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

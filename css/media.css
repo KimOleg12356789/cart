@@ -1,0 +1,174 @@
+
+
+
+
+
+@media screen and (max-width: 1366px) {
+
+}
+
+
+/* стили для md-устройств */
+@media screen and (max-width: 1200px) {
+    .call .container {
+        padding: 0 15px 0 15px;
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+
+    .call__about_title {
+        color: #4ABCC1;
+        opacity: 0.9;
+        margin: 0 0 6px 0;
+        text-align: center;
+    }
+}
+
+
+/* стили для sm-устройств */
+@media screen and (max-width: 1024px) {
+
+  
+}
+
+/* стили для sm-устройств */
+@media screen and (max-width: 992px) {
+
+    .container {
+        padding: 0 15px 0 15px;
+
+    }
+
+    .call__wrap {
+        display: block;
+    }
+    .call__block2 {
+        width: 100%;
+        padding: 0px 0 0 0px;
+    }
+
+    .call__block {
+        width: 100%;
+        padding: 0 0 0 0;
+        border:none
+        /* border-right: 2px solid #D9D9D9; */
+    }
+
+    .menu {
+        display: flex;
+    }
+
+    .menu li {
+        margin: 0 0 0px 0;
+        width: 20%;
+    }
+
+    .call__title {
+        font-size: 17px;
+        line-height: 24px;
+        text-align: right;
+        color: #838382;
+        padding: 32px 0 0 0;
+        margin: 0 0 23px 0;
+    }
+
+    .menu li a {
+        font-size: 15px;
+        line-height: 20px;
+        text-align: center;
+        color: #838382;
+        text-decoration: none;
+        opacity: 0.9;
+    }
+
+    .menu li {
+        margin: 0 20px 0px 20px;
+        width: 20%;
+    }
+
+    .call_about_block {
+        width: 16.66666666666667%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+  
+}
+
+
+/* Ipad*/ 
+@media screen and (max-width: 768px) {
+
+}
+
+
+/* Ipad mini*/ 
+@media screen and (max-width: 640px) {
+    .menu li {
+        margin: 0 5px 0px 4px;
+        width: 20%;
+    }
+}
+
+/* Galaxy S8+*/ 
+@media screen and (max-width: 480px) {
+    .call__about_title {
+        color: #4ABCC1;
+        opacity: 0.9;
+        margin: 0 0 6px 0;
+        text-align: center;
+        font-size: 13px;
+    }
+
+    .copyright {
+        font-size: 16px;
+        line-height: 24px;
+        color: #838382;
+        text-align: right;
+        margin: 0px 0 40px 0;
+    }
+
+    .menu {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .menu li {
+        margin: 0 15px 15px 14px;
+        width: 25%;
+    }
+
+    .menu li a {
+        font-size: 13px;
+        line-height: 17px;
+        text-align: center;
+        color: #838382;
+        text-decoration: none;
+        opacity: 0.9;
+    }
+    .call__title {
+        font-size: 17px;
+        line-height: 24px;
+        text-align: right;
+        color: #838382;
+        padding: 12px 0 0 0;
+        margin: 0 0 13px 0;
+    }
+}
+
+/* Galaxy*/ 
+@media screen and (max-width: 415px) {
+  
+}
+
+
+/* Iphone 6.7.8 */ 
+@media screen and (max-width: 375px) {
+
+}
+
+/* Iphone 5.5SE */ 
+@media screen and (max-width: 320px) {
+
+}
